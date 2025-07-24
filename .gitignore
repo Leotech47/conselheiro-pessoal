@@ -1,1 +1,236 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.nuxt/
+.vuepress/dist/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output/
+
+# Instrumentation directories
+.dynamodb/
+.vscode-test
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.production
+
+# API Keys and sensitive data
+.env.example
+config/keys.js
+secrets/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# React specific
+# Production build
+/build
+/dist
+
+# Static files
+/static
+
+# Webpack
+.webpack/
+
+# Jest
+coverage/
+
+# Storybook
+storybook-static/
+
+# Tailwind CSS
+/src/styles/tailwind.output.css
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debug files
+debug.log
+error.log
+
+# Local development
+.local
+.cache/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# AWS
+.aws/
+
+# Google Cloud
+gcloud/
+
+# Docker
+docker-compose.override.yml
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
+
+# Custom - Conselheiro Pessoal specific
+# Add any project-specific files to ignore here
+config/anthropic-keys.js
+src/config/api-keys.js
 
